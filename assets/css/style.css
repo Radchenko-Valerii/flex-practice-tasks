@@ -173,3 +173,57 @@ body {
 .footer-link {
   color: dodgerblue;
 }
+
+@media screen and (max-width: 992px) {
+  .work-section{
+    min-width: 768px;
+  }
+
+  .card{
+    min-width: 220px;
+  }
+  
+  .flex-container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .work-section{
+    min-width: 576px;
+  }
+
+  .card{
+    min-width: 220px;
+  }
+  
+  .flex-container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .theme-blue, .theme-gray{
+    width: 100%;
+  }
+
+  .work-section{
+    min-width: 320px;
+  }
+
+  .card{
+    min-width: 220px;
+  }
+  
+  .flex-container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .text-columns {
+    columns: 1;
+    column-gap: 1.5rem;
+  }
+}
