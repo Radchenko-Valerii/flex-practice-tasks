@@ -198,9 +198,10 @@ body {
     min-width: 220px;
   }
   
-  .flex-container {
+  .flex-container-first {
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
   }
 }
 
@@ -214,7 +215,7 @@ body {
   }
 
   .card{
-    min-width: 220px;
+    min-width: 250px;
   }
   
   .flex-container {
@@ -225,5 +226,9 @@ body {
   .text-columns {
     columns: 1;
     column-gap: 1.5rem;
+  }
+  
+  .link{
+    margin-top: 10px;
   }
 }
